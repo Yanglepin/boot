@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+.hei24{ font-size:24px; color:#333; text-decoration:none;}
+.hei24 a{ font-size:24px; color:#333; text-decoration:none;}
+.hei24 a:hover{ font-size:24px; color:#f00; text-decoration:none;}
+
+.hei20{ font-size:20px; color:#333; text-decoration:none;}
+.hei20 a{ font-size:20px; color:#333; text-decoration:none;}
+.hei20 a:hover{ font-size:20px; color:#333; text-decoration:none;}
+
+.hei18{ font-size:18px; color:#333; text-decoration:none;}
+.hei18 a{ font-size:18px; color:#333; text-decoration:none;}
+.hei18 a:hover{ font-size:18px; color:#333; text-decoration:none;}
+
+.hei16{ font-size:16px; color:#333; text-decoration:none;}
+.hei16 a{ font-size:16px; color:#333; text-decoration:none;}
+.hei16 a:hover{ font-size:16px; color:#333; text-decoration:none;}
+
+.hei14{ font-size:14px; color:#333; text-decoration:none;}
+.hei14 a{ font-size:14px; color:#333; text-decoration:none;}
+.hei14 a:hover{ font-size:14px; color:#FF0000; text-decoration:none;}
+
+.hei12{ font-size:12px; color:#333; text-decoration:none;}
+.hei12 a{ font-size:12px; color:#333; text-decoration:none;}
+.hei12 a:hover{ font-size:12px; color:#f00; text-decoration:none;}
+
+.hei12cu{ font-size:12px; color:#333; text-decoration:none; font-weight: bold;}
+.hei12cu a{ font-size:12px; color:#333; text-decoration:none; font-weight: bold;}
+.hei12cu a:hover{ font-size:12px; color:#f00; text-decoration:none; font-weight: bold;}
+
+.bai24{ font-size:24px; color:#fff; text-decoration:none;}
+.bai24 a{ font-size:24px; color:#fff; text-decoration:none;}
+.bai24 a:hover{ font-size:24px; color:#fff; text-decoration:none;}
+
+.bai20{ font-size:20px; color:#fff; text-decoration:none;}
+.bai20 a{ font-size:20px; color:#fff; text-decoration:none;}
+.bai20 a:hover{ font-size:20px; color:#fff; text-decoration:none;}
+
+.bai32{ font-size:32px; color:#fff; text-decoration:none;}
+.bai32 a{ font-size:32px; color:#fff; text-decoration:none;}
+.bai32 a:hover{ font-size:32px; color:#fff; text-decoration:none;}
+
+.bai12{ font-size:12px; color:#fff; text-decoration:none;}
+.bai12 a{ font-size:12px; color:#fff; text-decoration:none;}
+.bai12 a:hover{ font-size:12px; color:#fff; text-decoration:none;}
+
+.bai14{ font-size:14px; color:#fff; text-decoration:none;}
+.bai14 a{ font-size:14px; color:#fff; text-decoration:none;}
+.bai14 a:hover{ font-size:14px; color:#fff; text-decoration:none;}
+
+.baicu14{ font-size:14px; color:#fff; text-decoration:none; font-weight: bold;}
+.baicu14 a{ font-size:14px; color:#fff; text-decoration:none; font-weight: bold;}
+.baicu14 a:hover{ font-size:14px; color:#fff; text-decoration:none; font-weight: bold;}
+
+.bai16{ font-size:16px; color:#fff; text-decoration:none;}
+.bai16 a{ font-size:16px; color:#fff; text-decoration:none;}
+.bai16 a:hover{ font-size:16px; color:#fff; text-decoration:none;}
+
+.bai18{ font-size:18px; color:#fff; text-decoration:none;}
+.bai18 a{ font-size:18px; color:#fff; text-decoration:none;}
+.bai18 a:hover{ font-size:18px; color:#fff; text-decoration:none;}
+
+.bai40{ font-size:40px; color:#fff; text-decoration:none;}
+.bai40 a{ font-size:40px; color:#fff; text-decoration:none;}
+.bai40 a:hover{ font-size:40px; color:#fff; text-decoration:none;}
+
+.hui14{ font-size:14px; color:#666; text-decoration:none;}
+.hui14 a{ font-size:14px; color:#666; text-decoration:none;}
+.hui14 a:hover{ font-size:14px; color:#f00; text-decoration:none;}
+
+.hui12{ font-size:12px; color:#666; text-decoration:none;}
+.hui12 a{ font-size:12px; color:#666; text-decoration:none;}
+.hui12 a:hover{ font-size:12px; color:#f00; text-decoration:none;}
+
+.hui12cu{ font-size:12px; color:#666; text-decoration:none; font-weight: bold;}
+.hui12cu a{ font-size:12px; color:#666; text-decoration:none; font-weight: bold;}
+.hui12cu a:hover{ font-size:12px; color:#f00; text-decoration:none; font-weight: bold;}
+
+.hui16{ font-size:16px; color:#666; text-decoration:none;}
+.hui16 a{ font-size:16px; color:#666; text-decoration:none;}
+.hui16 a:hover{ font-size:16px; color:#f00; text-decoration:none;}
+
+
+
+.hong20{font-size: 20px; color: #ec1d23; text-decoration: none;}
+.hong20 a{font-size: 20px; color: #ec1d23; text-decoration: none;}
+.hong20 a:hover{font-size: 20px; color: #ec1d23; text-decoration: none;}
+
+.hong12{font-size: 12px; color: #ec1d23; text-decoration: none;}
+.hong12 a{font-size: 12px; color: #ec1d23; text-decoration: none;}
+.hong12 a:hover{font-size: 12px; color: #ec1d23; text-decoration: none;}
+
+.hong32{font-size: 32px; color: #ec1d23; text-decoration: none;}
+.hong32 a{font-size: 32px; color: #ec1d23; text-decoration: none;}
+.hong32 a:hover{font-size: 32px; color: #ec1d23; text-decoration: none;}
+
+.hong14{font-size: 14px; color: #ec1d23; text-decoration: none;}
+.hong14 a{font-size: 14px; color: #ec1d23; text-decoration: none;}
+.hong14 a:hover{font-size: 14px; color: #ec1d23; text-decoration: none;}
+
+.hongcu16{font-size: 16px; color: #ec1d23; text-decoration: none; font-weight: bold;}
+.hongcu16 a{font-size: 16px; color: #ec1d23; text-decoration: none; font-weight: bold;}
+.hongcu16 a:hover{font-size: 16px; color: #ec1d23; text-decoration: none; font-weight: bold;}
+
+.hongcu14{font-size: 14px; color: #ec1d23; text-decoration: none; font-weight: bold;}
+.hongcu14 a{font-size: 14px; color: #ec1d23; text-decoration: none; font-weight: bold;}
+.hongcu14 a:hover{font-size: 14px; color: #ec1d23; text-decoration: none; font-weight: bold;}

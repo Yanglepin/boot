@@ -1,0 +1,424 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family:pingfang;
+	src: url(../fonts/PingFangMedium.ttf);
+}
+
+
+body{
+font-family:Microsoft Yahei,Arial, Helvetica, sans-serif;  /*全局字体Microsoft Yahei  为流行的微软雅黑字体，如不需要，删除即可*/
+font-size:12px;  /*全局字体大小*/
+color:#666666;  /*全局字体颜色*/
+/*如果还需要定义网页的背景颜色或图片可以继续写*/
+}
+.clear{
+clear:both; /*建立一个通用的清除浮动选择符*/
+}
+body,div,ul,ol,li,form,p,input,fieldset,h1,h2,h3,h4,h5,h6,dl,dt,dd{ 
+/*这些标签默认存在一些外边距、内边距等，必须提前清除*/
+margin:0;
+padding:0;
+list-style:none;
+}
+table{ border-collapse:collapse;border-spacing:0;}
+fieldset ,img{
+/*有必要的时候把全局的图片边框去掉*/
+ border:none;
+ }
+
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+.mt5{margin-top: 5px;}
+.mt2{margin-top: 2px;}
+.mt10{margin-top: 10px;}
+.mt120{margin-top: 120px;}
+.mt90{margin-top: 90px;}
+.mt80{margin-top: 80px;}
+.mt60{margin-top: 60px;}
+.mt30{margin-top: 30px;}
+.mt25{margin-top: 25px;}
+.mt20{margin-top: 20px;}
+.mt40{margin-top: 40px;}
+.mt15{margin-top: 15px;}
+.mr40{margin-right: 40px;}
+.mb30{margin-bottom: 30px;}
+.elli{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.elli5{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+}
+.lh15{line-height:15px;}
+.lh21{line-height:21px;}
+.lh28{line-height:28px;}
+.lh40{line-height: 40px;}
+.lh30{line-height: 30px;}
+.pt10{padding-top: 10px;}
+.pb15{padding-bottom: 15px;}
+.mr20{margin-right: 20px;}
+.lh45{line-height: 45px;}
+
+.elli{
+	overflow:hidden;
+	white-space:nowrap; /*强制不换行*/
+	text-overflow:ellipsis;/*溢出部分用省略号代替*/
+	}
+.elli2{
+	display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+	}	
+.foot{
+	height:auto;
+    padding:15px 0;
+    background: #f4f4f4;}
+    
+.erweima>div{
+	width:50%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	height:auto;
+	padding:1% 6%;
+	}
+
+.pclist{
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+.pclist li{
+	width:16.3%;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+}
+.pclist li.active,.pclist li:hover{
+	background-color: #EC1D23;
+}
+.pclist li.active a,.pclist li:hover a{
+	color: #FFFFFF;
+}
+
+.moblist .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #EC1D23;
+    border-color: #EC1D23;
+}
+/*新闻*/
+.bb2{
+	border-bottom: 2px solid #ec1d23;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	margin: 0 auto;
+}
+.newslist li{
+	height: 28px;
+	line-height: 28px;
+}
+.newstime{
+	width:20%;
+	display: inline-block;
+	float:left;
+}
+.newstitle{
+	width:80%;
+	display: inline-block;
+	float:right;
+	text-align: left;
+	background: url(../images/squre.png) no-repeat left center;
+	padding-left: 5%;
+}
+.btn-hong{
+	background-color: #EC1D23;
+}
+/*公司创新创效情况*/
+.publish{
+	width: 100%;
+	height: auto;
+	background-color:#efeff0;
+}
+
+.table th, .table td {
+    line-height: 34px !important;
+    height: 34px;
+}
+
+
+
+.footer{
+	min-height:336px;
+	padding-bottom: 90px;
+	background:url(../images/footer.jpg) no-repeat center center;
+}
+
+
+/*揭榜攻关*/
+.conllist a{
+	border-radius:0 !important;
+	}
+	
+.conllist a.active, .conllist a.active:focus, .conllist a.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #cccccc;
+    border-color: #999999;
+    color:#333333;
+}
+
+.perheader{
+    height: 120px;
+    width: 100%;
+    background: #204056;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.conhong{
+	height: 50px;
+	line-height: 50px;
+	background: #ee191b;
+	padding-left: 30px;
+}
+.conhead{
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	border-bottom: 1px solid #666;
+}
+
+
+.con-table .btn{
+	background:#ee191b;
+}
+
+.con-table .table tr{
+	height: 50px;
+	line-height: 50px;
+}
+
+.table-lang th, .table-lang td {
+    white-space: nowrap;
+}
+
+
+/*创新创效*/
+.c-shenhui{
+	height: 45px;
+	line-height: 45px;
+	background: #204056;
+	padding-left: 30px;
+}
+
+.project-con{
+	display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.project-con img{
+	height: 188px !important;
+}
+
+.project-p p{
+	font-size: 14px;
+	color: #333;
+	padding-left: 15px;
+}
+
+
+/*手机特殊样式*/
+@media (max-width:768px) { 
+   .erwei>div{
+		height:auto;
+    }
+    .lh{
+    	line-height: 35px;
+    }
+        /*闯关英雄榜*/
+	.herobg{
+	    background:none;
+	    color:#666 !important;
+	    }
+	.herobg thead:nth-child(1){
+		font-weight: bold;
+	}
+	
+	.erwei>div{
+	width: 50%;
+	display: inline-block;
+	float:left;
+	padding: 2% 5%;
+    }
+    
+    .footer{
+		background: #204056;
+	}
+	
+ }
+/*平板特殊样式*/
+@media (min-width:768px) and (max-width:992px) { 
+	.erwei>div{
+		height:auto;
+    }
+    .header .col-sm-2{
+    	line-height: 80px;
+    }
+    .lh{
+    	line-height: 80px;
+    }
+    
+    /*闯关英雄榜*/
+	.herobg{
+	    background:none;
+	    color:#666 !important;
+	    }
+	.herobg thead:nth-child(1){
+		font-weight: bold;
+	}
+	
+.erwei>div{
+	width: 50%;
+	display: inline-block;
+	float:left;
+	padding: 2% 5%;
+  }
+  
+   .footer{
+		background: #204056;
+	}
+	
+	
+
+	
+
+}
+/*中等屏幕特殊样式*/
+@media (min-width:992px) and (max-width:1200px) { 
+	
+	.header{
+		width: 1080px;
+		margin: 0 auto;
+		height: 120px;
+	}
+	
+	.concon{
+		width: 1080px;
+		margin: 0 auto;
+	}
+	
+	.header .hei14{
+		line-height: 120px;
+	}
+	
+	.news>.row{
+		width:1080px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/*公司创新创效情况*/
+	.collect{
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+/*闯关英雄榜*/
+	.herobg{
+	    background:url(../images/yxbg.jpg) no-repeat top center;
+	    background-size: 100%;
+	    padding: 130px 50px 0 50px;
+	    height: auto;
+	    }
+	.herobg thead:nth-child(1){
+		font-weight: bold;
+	}   
+	 
+	.herobg tr:hover{
+		color:#333;
+	}
+	
+
+
+  
+
+
+ }
+/*大屏幕特殊样式*/
+@media (min-width:1200px) {
+	
+	.header{
+		width: 1080px;
+		margin: 0 auto;
+		height: 120px;
+	}
+	
+	.concon{
+		width: 1080px;
+		margin: 0 auto;
+	}
+	
+	.header .hei14{
+		line-height: 120px;
+	}
+	
+   	.news>.row{
+		width:1080px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/*公司创新创效情况*/
+	.collect{
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+/*闯关英雄榜*/
+	.herobg{
+	    background:url(../images/yxbg.jpg) no-repeat top center;
+	    background-size: 100%;
+	    padding: 130px 50px 0 50px;
+	    height: auto;
+	}
+	    
+	.herobg thead:nth-child(1){
+		font-weight: bold;
+	} 
+	
+	.herobg tr:hover{
+		color:#333;
+	}
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
